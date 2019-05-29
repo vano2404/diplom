@@ -20,11 +20,8 @@ function timer (){
     let setClock = (id, endtime) => {
         let timer = document.getElementById(id),
             days = timer.querySelector('#days');
-            console.log(days.textContent);
             let hours = timer.querySelector('#hours');
-            console.log(hours.textContent);
             let minutes = timer.querySelector('#minutes');
-            console.log(minutes.textContent);
             let seconds = timer.querySelector('#seconds'),
             timeInterval = setInterval(updateClock, 1000);
         function updateClock(){
