@@ -4,7 +4,6 @@ function windowTabs() {
 		tabContent = document.querySelectorAll(".glazing_type"),
 		tab = document.querySelectorAll(".glazing_block"),
         act = document.querySelectorAll('.act');//  класс внутри тега <а> для добавления классов active no_active
-		console.log(glazing);
         act[0].classList.add('active');
 
 	let hideTabContent = (a) => {
