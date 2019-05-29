@@ -22,9 +22,8 @@ function calc() {
         labelCold = labelCold.textContent;
     let objectCalc = {};
         dataCalc = objectCalc;
-    console.log(objectCalc);
     let w = width,
-		h = height,
+	h = height,
         t;
     let heightWidth = (elem)=>{
         elem.addEventListener('input',() => {
